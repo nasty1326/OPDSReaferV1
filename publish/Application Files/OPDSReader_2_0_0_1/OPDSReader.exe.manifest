@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OPDSReader.exe" version="2.0.0.1" publicKeyToken="98d0fed40934fddf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OPDSReader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OPDSReader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OPDSReader.exe" size="57312">
+      <assemblyIdentity name="OPDSReader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/pVewFjr0/O3fiJnOQAb6iKGIkyByOCs8DlOc+dWXhM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="OPDSReader.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-7CJ18REC\nasty" issuerKeyHash="2ce870f864dd01e654917c7a4d441e483c2736a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pDW24Yt0m+4A3z9AVkHGlKhMVRLreLXeh9FyvhrQCm0=</DigestValue></Reference></SignedInfo><SignatureValue>IyC7DB98kTHdqiu6Rra7T8ZTDiOPW0rSEegSLFHjNXu7sOsJtiIeK6E78QIcUjcBWznK34UdGs4cHKBfhQmSARqF3Pi+LZguXd40z7dVtlafOt88Qn9VymHB1T+5LqMnwoKSTZ/eiXlxsFytVWrMWMKEu0HC7wBOqy4pwEoj3Yw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wQZu4RA73ez5NO+fj9mUlUv++svHJYWRzviyY7XtebR4Gzb4zR83ZCB7kxDdMwaGFjT3OMPMksfuRdujGad0b3yTBPpa9FiwwKXUxdorH9KG5cUvLyyKaQTrajqNuysguvj0Tkj9MGD4CEfNrc3u3h36guw817cCO6aYE3X9uS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6d0ad01abe72d187deb578eb12554ca894c64156403fdf00ee9b748be1b635a4" Description="" Url=""><as:assemblyIdentity name="OPDSReader.exe" version="2.0.0.1" publicKeyToken="98d0fed40934fddf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-7CJ18REC\nasty</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tYwuuLvoox+2fCE6IfnuhVyHKut11C0abBE5y+jEvj4=</DigestValue></Reference></SignedInfo><SignatureValue>tTmxEICEvhMpsHniTd6KI+sIztulz+KwrL9UfSwj8sg2T6gPruKCUEftMqFkNBJD42qktapNg20tcQjAAn1Os2dCLe886ASoHno2/YX4FdeTbOi0ehSs2kQUAqafZAMXbHHIfhiPN52KBCAJf1PJuTfKikEYVrQc5VisOAr5s2o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wQZu4RA73ez5NO+fj9mUlUv++svHJYWRzviyY7XtebR4Gzb4zR83ZCB7kxDdMwaGFjT3OMPMksfuRdujGad0b3yTBPpa9FiwwKXUxdorH9KG5cUvLyyKaQTrajqNuysguvj0Tkj9MGD4CEfNrc3u3h36guw817cCO6aYE3X9uS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIcT3kBEQN4BNccFvDL5LkzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA3AEMASgAxADgAUgBFAEMAXABuAGEAcwB0AHkwHhcNMjMwMTA5MTMxNzIwWhcNMjQwMTA5MTkxNzIwWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA3AEMASgAxADgAUgBFAEMAXABuAGEAcwB0AHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEGbuEQO93s+TTvn4/ZlJVL/vrLxyWFkc74smO17Xm0eBs2+M0fN2Qge5MQ3TMGhhY09zjDzJLH7kXboxmndG98kwT6WvRYsMCl1MXaKx/ShuXFLy8simkE62o6jbsrILr49E5I/TBg+AhHza3N7t4d+oLsPNe3AjummBN1/bktAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAvGvXPQFA7KjLgeGtxaWyLZ/7PY9HsjBPWFUAFgpOvwTJJps3/uCI7l3qXPwfNzJE28k4EKWmO9MvA+YBhN+NPvXfn9vF+2tFotAIFNnu+xGKbBLT/YzAyQlwwVbQ2A7ieVZFGcHCscNSFkQUsk56/FaFVoEtOoG9vQzEi6knNGg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
